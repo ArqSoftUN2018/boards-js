@@ -13,7 +13,7 @@ var BoardSchema = new Schema({
     },
     archived: {
         type: Boolean,
-        default: false;
+        default: false
     },
     created_at: {
         type: Date,
