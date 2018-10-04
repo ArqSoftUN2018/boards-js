@@ -1,3 +1,5 @@
+#Test with: http://editor.swagger.io/
+
 swagger: '2.0'
 info:
   version: 1.0.0
@@ -55,7 +57,7 @@ paths:
           schema:
             $ref: '#/definitions/ErrorModel'
 
-  /boards/{id}:
+  /boards/{code}:
     get:
       summary: Returns a board with the given code
       operationId: getBoardByCode
