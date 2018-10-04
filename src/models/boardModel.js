@@ -4,9 +4,14 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 var BoardSchema = new Schema({
-    _id: Schema.Types.ObjectId,
-    _propietario_id: Schema.Types.ObjectId, 
-    _grupo: Schema.Types.ObjectId,
+    _id: d: mongoose.Schema.Types.ObjectId,
+    propietario_id: {
+        type: Number,
+        required: 'El id del propietario es obligatorio'
+    }, 
+    grupo: {
+        type: [Number]
+    }, 
     name: {
         type: String,
         required: 'El nombre del tablero es obligario'
