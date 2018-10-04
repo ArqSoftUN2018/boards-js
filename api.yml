@@ -131,7 +131,7 @@ paths:
         '200':
           description: Ok
           schema:
-            $ref: '#/definitions/CourseCode'
+            $ref: '#/definitions/BoardCode'
         '404':
           description: Not Found
           schema:
@@ -197,7 +197,7 @@ definitions:
         items:
           $ref: '#/definitions/Board'
   
-  CourseCode:
+  BoardCode:
     type: object
     properties:
       code:
