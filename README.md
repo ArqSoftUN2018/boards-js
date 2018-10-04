@@ -1,11 +1,18 @@
-This repo contains the code about Board Micro Service of an TODO Application
+# BOARD MS
 
-To run write:
-    docker build -t <username>/board_ms .
+This is the started back-end for Board Microservice
+
+
+# Architecture
+	**Model:** NoSQL Database for Boards
+	**Controller:** Business logic (HTTP Methods)
+	**Routes:** API REST based
+
+
+# Running
+
+    docker-machine start rancher-server
+    docker-machine start rancher-node1
+    eval $(docker-machine env rancher-node1)
+    docker-compose build
     docker-compose up
-
-CREATE: POST http://localhost:3000/boards
-LIST: GET http://localhost:3000/boards
-READ: GET http://localhost:3000/boards/:board_id
-UPDATE: PUT http://localhost:3000/boards/:board_id
-DELETE: DELETE http://localhost:3000/boards/:board_id

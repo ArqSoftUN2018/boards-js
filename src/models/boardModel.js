@@ -4,10 +4,9 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 var BoardSchema = new Schema({
-    _id: d: mongoose.Schema.Types.ObjectId,
     propietario_id: {
         type: Number,
-        required: 'El id del propietario es obligatorio'
+        requited: 'El id del propietario es obligatorio'
     }, 
     grupo: {
         type: [Number]
