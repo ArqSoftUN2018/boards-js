@@ -1,5 +1,5 @@
 // config/database.js
 
 module.exports = {
-    'url': 'mongodb://mongo:27017'
+    'url': 'mongodb://boards-db:27017'
 };
