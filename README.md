@@ -17,4 +17,4 @@ This is the started back-end for Board Microservice
     docker-compose build
     docker-compose up
 
-Expuesto en la nube con Google Cloud
+
