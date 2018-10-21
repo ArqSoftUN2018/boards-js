@@ -8,9 +8,7 @@ var express = require('express'),
     configDB = require('./config/database.js');
 
 mongoose.Promise = global.Promise;
-mongoose.connect(configDB.url, {
-    useMongoClient: true
-}); // connect to our database
+mongoose.connect(configDB.url); // connect to our database
 
 app.use(bodyParser.urlencoded({extended : true}));
 app.use(bodyParser.json());
