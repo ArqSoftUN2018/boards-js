@@ -1,4 +1,4 @@
-# BOARD MS
+# BOARD MS diego
 
 This is the started back-end for Board Microservice
 
@@ -16,6 +16,3 @@ This is the started back-end for Board Microservice
     eval $(docker-machine env rancher-node1)
     docker-compose build
     docker-compose up
-    
-
-
