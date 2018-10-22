@@ -1,12 +1,12 @@
-version: "2"
+version: '2'
 services:
   boards-db:
     build: baangaritar/boards-js
     ports: 
-    - "3001:3002"
+    - 3001:3001
     depends_on:
     - mongo
   boards-ms:
     image: mongo
     ports:
-    - "3304:3304"
+    - 3304:3304
