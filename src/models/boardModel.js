@@ -23,12 +23,12 @@ var BoardSchema = new Schema({
         default: false
     },
     created_at: {
-        type: Date,
-        default: Date.now
+        type: String,
+        default: String.now
     },
     updated_at: { 
-        type: Date, 
-        default: Date.now 
+        type: String, 
+        default: String.now 
     },
 
 });
