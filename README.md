@@ -5,7 +5,6 @@ Boards Microservices for UNalDO
 
 This is the started back-end for Board Microservice
 
-
 # Architecture
 	**Model:** NoSQL Database for Boards
 	**Controller:** Business logic (HTTP Methods)
