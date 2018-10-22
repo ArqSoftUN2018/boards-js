@@ -1,4 +1,7 @@
-# BOARD MS diego
+# BOARD MS
+
+2E-unaldo-boards
+Boards Microservices for UNalDO
 
 This is the started back-end for Board Microservice
 
